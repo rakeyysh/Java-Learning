@@ -24,8 +24,8 @@ public class Functions {
         return x + y + z;
     }
 
-    static double add(double p, double q) {
-        return p + q;
+    static int add(double p, double q) {
+        return (int)(p + q);
     }
 
     // This Gives Error as it decides from the left side during compile time before
