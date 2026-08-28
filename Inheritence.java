@@ -4,9 +4,9 @@ public class Inheritence {
 
         // parent Class object
 
-        EngineeringStudent A = new EngineeringStudent(); // Child class object
+        EngineeringStudent A = new EngineeringStudent("Basic Mechanical Engineering"); // Child class object
 
-        A.branch = "Basic Mechanical Engineering";
+       
 
         // A.attendLab();
         // A.attendClass();
@@ -50,8 +50,9 @@ class EngineeringStudent extends Student {
 
     public String branch;
 
-    EngineeringStudent() {
+    EngineeringStudent(String branch) {
         super("Rakesh", 28, 170, 72);
+        this.branch = branch;
     }
 
     public void attendLab() {
