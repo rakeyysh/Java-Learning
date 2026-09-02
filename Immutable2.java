@@ -38,6 +38,8 @@ final class Student {
     private final int weight;
     private final College college;
 
+    // We don't want the new Student object to retain a reference to a mutable
+    // object that someone outside still controls.
     Student(int age, int height, int weight, College college) {
         this.age = age;
         this.height = height;
