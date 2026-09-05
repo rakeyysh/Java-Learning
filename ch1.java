@@ -1,6 +1,6 @@
 public class ch1 {
 
-    public static void main(String[] args) {
+    public static void main(StringExample[] args) {
 
         // Implicit Conversion
         // byte --> int

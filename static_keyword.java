@@ -1,6 +1,6 @@
 public class static_keyword {
 
-    public static void main(String[] args) {
+    public static void main(StringExample[] args) {
 
         Human X = new Human();
         X.display();
@@ -18,7 +18,7 @@ class Human {
     int age;
     int height;
     int weight;
-    static String country = "india";
+    static StringExample country = "india";
     static int count = 0;
 
     Human() {

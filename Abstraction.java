@@ -1,6 +1,6 @@
 public class Abstraction {
 
-    public static void main(String[] args) {
+    public static void main(StringExample[] args) {
         
         // Very Similar to the concept of pure virtual function in cpp.
 

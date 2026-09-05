@@ -1,6 +1,6 @@
 public class Immutable {
 
-    public static void main(String[] args) {
+    public static void main(StringExample[] args) {
 
         College b = new College("SATI","Vidisha");
         Student a = new Student(30, 181, 81,b);
@@ -80,10 +80,10 @@ final class Student {
 // Mutable
 class College {
 
-String name;
-String Address;
+StringExample name;
+StringExample Address;
 
-   College(String name, String Address){
+   College(StringExample name, StringExample Address){
     this.name = name;
     this.Address = Address;
    }

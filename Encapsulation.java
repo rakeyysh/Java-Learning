@@ -1,6 +1,6 @@
 public class Encapsulation {
 
-    public static void main(String[] args) {
+    public static void main(StringExample[] args) {
 
         BankAccount A = new BankAccount();
         A.deposit(100, 280);

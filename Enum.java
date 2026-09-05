@@ -1,6 +1,6 @@
 public class Enum {
 
-    public static void main(String[] args) {
+    public static void main(StringExample[] args) {
         OrderStatus x = OrderStatus.SHIPPED;
         OrderStatus y = OrderStatus.CONFIRMED;
 
